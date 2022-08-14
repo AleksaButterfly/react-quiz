@@ -1,0 +1,54 @@
+.root {
+  margin-top: 24px;
+
+  @media (min-width: 768px) {
+    margin-top: 48px;
+  }
+}
+
+.accomplishmentTitle {
+  color: var(--matterColorLight);
+
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.accomplishments {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.accomplishment {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+
+  /* Style */
+  background-color: rgba(102, 102, 238, 0.4);
+  border-radius: 4px;
+
+  /* Animation */
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    background-color: rgba(102, 102, 238, 0.5);
+    transform: scale(1.01);
+  }
+}
+
+.accomplishmentHeading {
+  color: var(--matterColorLight);
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accomplishmentText {
+  color: var(--matterColorLight);
+
+  margin-top: 12px;
+  margin-bottom: 0;
+}

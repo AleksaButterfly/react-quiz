@@ -1,0 +1,25 @@
+:root {
+  --mainColor: #55f;
+  --mainColorLight: #6666ee;
+
+  --matterColorBright: #f7f7f7;
+  --matterColorLight: #fff;
+  --matterColorDark: #000;
+  --matterColorAnti: #b2b2b2;
+  --matterColorNegative: #e7e7e7;
+
+  --successColor: #2ecc71;
+  --failColor: #cc0000;
+}
+
+body {
+  margin: 0;
+  font-family: "Fredoka One", cursive;
+
+  background-color: var(--matterColorBright);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

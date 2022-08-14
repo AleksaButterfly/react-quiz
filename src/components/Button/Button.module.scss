@@ -1,0 +1,78 @@
+.root {
+  /* Style */
+  background-color: var(--mainColor);
+  border-radius: 8px;
+  border-style: none;
+
+  /* Font */
+  font-family: "Fredoka One", cursive;
+  color: var(--matterColorLight);
+
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  outline: none;
+  padding: 10px 16px;
+
+  /* Animation */
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:disabled {
+    background-color: var(--matterColorAnti);
+    color: var(--matterColorLight);
+    cursor: no-drop;
+
+    &:hover {
+      background-color: var(--matterColorAnti);
+    }
+  }
+
+  &:hover {
+    background-color: var(--mainColorLight);
+  }
+}
+
+.secondaryButton {
+  background-color: var(--matterColorLight);
+  color: var(--matterColor);
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  stroke: var(--matterColorLight);
+  stroke-width: 3px;
+}
+
+.checkmark {
+  width: 24px;
+  height: 24px;
+  stroke: var(--matterColorLight);
+
+  /* Animation */
+  animation-name: checkmarkAnimation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes checkmarkAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

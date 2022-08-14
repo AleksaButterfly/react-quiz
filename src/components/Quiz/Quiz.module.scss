@@ -1,0 +1,13 @@
+.root {
+  position: relative;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionIndex {
+  font-size: 14px;
+  color: var(--matterColorAnti);
+}

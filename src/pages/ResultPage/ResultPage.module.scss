@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreBadge {
+  @media (min-width: 768px) {
+    margin-top: 24px;
+  }
+}
+
+.startAgainButton {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,11 @@
+.root {
+  position: relative;
+  background-image: url("../../assets/background.png");
+  background-color: #222;
+
+  max-width: 600px;
+  min-height: calc(100vh - 48px);
+
+  margin: 0 auto;
+  padding: 24px;
+}

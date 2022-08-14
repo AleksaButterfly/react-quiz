@@ -1,0 +1,80 @@
+.answerList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.answer {
+  /* Font */
+  color: var(--matterColorLight);
+  line-height: 24px;
+
+  /* Style */
+  background-color: rgba(50, 50, 50, 0.9);
+  border-radius: 4px;
+  padding: 12px 24px;
+
+  /* Animation */
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: var(--mainColor);
+  }
+}
+
+.successAnswer {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none;
+
+  /* Position */
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid var(--successColor);
+    border-radius: 4px;
+  }
+}
+
+.failAnswer {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none;
+
+  /* Position */
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid var(--failColor);
+    border-radius: 4px;
+  }
+}
+
+.activeAnswer {
+  background-color: var(--mainColorLight);
+}
+
+.answerIcon {
+  flex-shrink: 0;
+}
