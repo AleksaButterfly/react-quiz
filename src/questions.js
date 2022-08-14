@@ -11,7 +11,7 @@ const questions = [
   },
   {
     question: "Which of these countries has red on its flag?",
-    answers: ["Nigeria", "Ukraine", "india", "Bangladesh"],
+    answers: ["Nigeria", "Ukraine", "India", "Bangladesh"],
     correct: 3,
   },
   {
