@@ -27,7 +27,7 @@ const Accomplishments = (props) => {
     <div className={css.root}>
       <h3 className={css.accomplishmentTitle}>See what you've accomplished</h3>
       <div className={css.accomplishments}>
-        {accomplishment("Questions", "5", <QuestionIcon />)}
+        {accomplishment("Questions", questions.length, <QuestionIcon />)}
         {accomplishment(
           "Correct",
           `${score} / ${questions.length}`,
