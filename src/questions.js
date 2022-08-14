@@ -10,8 +10,8 @@ const questions = [
     correct: 2,
   },
   {
-    question: "Which of these countries has red on its flag?",
-    answers: ["Nigeria", "Ukraine", "Australia", "Bangladesh"],
+    question: "Which country has red on its flag?",
+    answers: ["Nigeria", "Ukraine", "India", "Bangladesh"],
     correct: 3,
   },
   {
