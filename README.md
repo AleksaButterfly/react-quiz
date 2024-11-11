@@ -2,8 +2,6 @@
 
 **react-quiz** is build on top of create-react-app.
 
-Project was build as a hobby-project to demonstrate some of the main React possibilities such as [Hooks](https://reactjs.org/docs/hooks-intro.html), [Local Storage](https://www.npmjs.com/package/use-local-storage), etc...
-
 ## 🔸 Getting started
 
 1. `yarn install`
